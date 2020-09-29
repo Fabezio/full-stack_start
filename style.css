@@ -1,0 +1,29 @@
+body {
+    font-family: arial, sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #2d3436;
+    color: whitesmoke;
+}
+ul {
+    list-style: '- ';
+}
+.ingredients {
+    color: orange;
+}
+#butter {
+    color: gold;
+    
+}
+div {
+    text-shadow: 1px 1px darkslategray;
+
+}
+h1,h2, h3, h4, h5 {
+    text-shadow: 8px 8px 3px darkgrey;
+    padding: 1rem;
+    box-shadow: 8px 8px 3px darkgrey;
+}
+h1 {
+    color: #0984e3;
+}
