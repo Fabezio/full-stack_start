@@ -2,8 +2,10 @@ body {
     font-family: arial, sans-serif;
     width: 1200px;
     margin: 0 auto;
-    background-color: #2d3436;
-    color: whitesmoke;
+    /* background-color: #2d3436;
+    color: whitesmoke; */
+    /* font-size: 7rem; */
+    /* font-weight:900; */
 }
 ul {
     list-style: '- ';
@@ -26,4 +28,51 @@ h1,h2, h3, h4, h5 {
 }
 h1 {
     color: #0984e3;
+}
+.sqr {
+    /* width: 400px;
+    height: 400px;
+    border: medium ridge black;
+    border-radius: 33%; */
+}
+.sqr p {
+    text-align: center;
+}
+.thumbnail {
+    width: 400px;
+    height: 400px;
+    background-color: greenyellow;
+
+}
+img {
+    max-width: 400px;
+    max-height: 400px;
+    background-size: cover;
+}
+@font-face {
+    /* font-family: 'Cute Meow';
+    src: url('fonts/Cute\ Meow.otf') */
+    font-family: 'Campus';
+    src: url('fonts/CAMPUS\ PERSONAL\ USE.ttf')
+}
+
+/* liens de navigation */
+.nav-link {
+    text-decoration: none;
+}
+.nav-link:visited {
+    color: darkred;
+}
+.nav-link:active {
+    color: greenyellow;
+}
+.nav-link:hover {
+    color: skyblue;
+}
+
+.isem {
+    font-size: 1em;
+}
+.isrem {
+    font-size: 1rem;
 }
